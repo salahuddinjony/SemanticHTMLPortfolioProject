@@ -43,19 +43,17 @@ a {
   color: #00b8d4;
   font-weight: 600;
   text-decoration: none;
+  font-size: 30px;
   border-bottom: 3px solid #00b8d4;
-  padding: 3px;
+  padding: 10px;
 }
 
 a:hover {
-  background-color: #00b8d4;
-  color: white;
+  background-color: #fff;
+  color: black;
 }
 
-a:active {
-  position: relative;
-  top: 1px;
-}
+
 
 a.active {
   border-bottom: none;
@@ -94,7 +92,9 @@ a.active {
 @media only screen and (max-device-width: 420px)  {
   .header, header {
     background-size: auto 100%;
+
   }
+
 }
 
 .header:before, header:before {
